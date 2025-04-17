@@ -9,7 +9,7 @@ class InMemoryDatabase:
         Inserts or updates a field in the database with respect to the lock.
         """
         if key not in self.db:
-            return None  # Key doesn't exist
+            return None  # Key doesn't existt
 
         # Check locking rules
         if key in self.locks:
